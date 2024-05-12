@@ -1,0 +1,18 @@
+{
+    "games":[
+    {
+        "id":1,
+        "name":"God Of War",
+        "year":"2005",
+        "imglink":"https://m.media-amazon.com/images/I/91VKfyGGkYL._AC_UF1000,1000_QL80_.jpg",
+        "plataform":"PS2 / PS3 / PsVita"
+    },
+    {
+        "id":2,
+        "name":"God Of War 2",
+        "year":"2005",
+        "imglink":"https://m.media-amazon.com/images/I/518wjkgeY5L._AC_UF1000,1000_QL80_.jpg",
+        "plataform":"PS2 / PS3 / PsVita"
+    }
+]
+}

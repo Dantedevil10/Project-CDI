@@ -1,20 +1,26 @@
 <section>
     <main id="home-main">
+
         <div class="links">
             <a href="#">Sobre Nos</a>
             <a href="#">Contato</a>
             <a href="#">Ajuda</a>
         </div><br>
-        <h1>Recomendados e Destaque</h1>
+
+            <h1>Recomendados e Destaque</h1>
+
         <div class="games-imgs">
-            <td *ngFor="let i of imgforg">
-                <div class="gameimg-container">
-                    <figure>
-                        <img src="{{i}}" alt="dsad">
-                    </figure>
-                </div>
-            </td>
+            <tr>
+                <td *ngFor="let i of imgforg">
+                    <div class="gameimg-container">
+                        <figure>
+                            <img src="{{i}}" alt="dsad">
+                        </figure>
+                    </div>
+                </td>
+            </tr>
         </div><br>
+        
         <div class="text-container">
             <h1>The CDI Industries</h1>
             <p>No Nosso Site Você Pode Encontrar As Melhores Opções De Jogos, Antigos e Mais Recentes,Gratuitos ou Pagos</p>
