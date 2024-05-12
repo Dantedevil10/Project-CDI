@@ -1,37 +1,52 @@
 <section>
-    <main id="home-main">
+  <main id="home-main">
+    <div class="links">
+      <a href="/Project-CDI/src/app/Paginas/sobre-nos">Sobre Nos</a>
+      <a href="/Project-CDI/src/app/Paginas/contato">Contato</a>
+      <a href="/Project-CDI/src/app/Paginas/ajuda">Ajuda</a>
+    </div>
+    <br />
 
-        <div class="links">
-            <a href="#">Sobre Nos</a>
-            <a href="#">Contato</a>
-            <a href="#">Ajuda</a>
-        </div><br>
+    <h1>Recomendados e Destaque</h1>
 
-            <h1>Recomendados e Destaque</h1>
+    <div class="games-imgs">
+      <tr>
+        <td *ngFor="let i of imgforg">
+          <div class="gameimg-container">
+            <figure>
+              <img src="{{ i }}" alt="dsad" />
+            </figure>
+          </div>
+        </td>
+      </tr>
+    </div>
+    <br />
 
-        <div class="games-imgs">
-            <tr>
-                <td *ngFor="let i of imgforg">
-                    <div class="gameimg-container">
-                        <figure>
-                            <img src="{{i}}" alt="dsad">
-                        </figure>
-                    </div>
-                </td>
-            </tr>
-        </div><br>
-        
-        <div class="text-container">
-            <h1>The CDI Industries</h1>
-            <p>No Nosso Site Você Pode Encontrar As Melhores Opções De Jogos, Antigos e Mais Recentes,Gratuitos ou Pagos</p>
-            <p>Para Se Ocupar Com Historias Emocionantes ,Ou Ate Mesmo Jogos Que Possuem Foco Competitivo</p>
-            <br>
-            <p>Todos Os Nossos Serviços São Gratuitos Para Todos Os Usuários,Mas Você Tambem Pode Nos ajudar</p>
-            <p>A Manter Nosso Trabalho Vivo E Melhorado Com Doações Totalmente Opcionais</p>
-            <br>
-            <h1>Para Saber Mais Sobre e Aproiveitar Nossos Serviços Cadastre-se Ou Faça Log in</h1>
-            <h1>E Seja Bem Vindo Ao Site Da CDI</h1>
-        </div>
-        
-    </main>
+    <div class="text-container">
+      <h1>The CDI Industries</h1>
+      <p>
+        No Nosso Site Você Pode Encontrar As Melhores Opções De Jogos, Antigos e
+        Mais Recentes,Gratuitos ou Pagos
+      </p>
+      <p>
+        Para Se Ocupar Com Historias Emocionantes ,Ou Ate Mesmo Jogos Que
+        Possuem Foco Competitivo
+      </p>
+      <br />
+      <p>
+        Todos Os Nossos Serviços São Gratuitos Para Todos Os Usuários,Mas Você
+        Tambem Pode Nos ajudar
+      </p>
+      <p>
+        A Manter Nosso Trabalho Vivo E Melhorado Com Doações Totalmente
+        Opcionais
+      </p>
+      <br />
+      <h1>
+        Para Saber Mais Sobre e Aproiveitar Nossos Serviços Cadastre-se Ou Faça
+        Log in
+      </h1>
+      <h1>E Seja Bem Vindo Ao Site Da CDI</h1>
+    </div>
+  </main>
 </section>

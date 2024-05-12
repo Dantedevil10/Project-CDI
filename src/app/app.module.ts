@@ -8,6 +8,9 @@ import { FooterComponent } from './Componentes/footer/footer.component';
 import { HomeComponent } from './Paginas/home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CadastroComponent } from './Paginas/cadastro/cadastro.component';
+import { SobreNosComponent } from './Paginas/sobre-nos/sobre-nos.component';
+import { ContatoComponent } from './Paginas/contato/contato.component';
+import { AjudaComponent } from './Paginas/ajuda/ajuda.component';
 
 
 @NgModule({
@@ -16,7 +19,10 @@ import { CadastroComponent } from './Paginas/cadastro/cadastro.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    CadastroComponent
+    CadastroComponent,
+    SobreNosComponent,
+    ContatoComponent,
+    AjudaComponent
   ],
   imports: [
     BrowserModule,
