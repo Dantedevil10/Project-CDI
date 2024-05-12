@@ -12,7 +12,7 @@ const routes: Routes = [
   { path: 'sobre-nos', component: SobreNosComponent },
   { path: 'contato', component: ContatoComponent },
   { path: 'ajuda', component: AjudaComponent },
-  { path: '**', component: HomeComponent }, // Rota curinga
+  { path: '**', component: HomeComponent }, // Rota Principal Caso O Caminho Não Seja Encontrado
 ];
 
 @NgModule({
