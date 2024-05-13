@@ -10,6 +10,62 @@
     {
         "id":2,
         "name":"God Of War 2",
+        "year":"2006",
+        "imglink":"https://m.media-amazon.com/images/I/518wjkgeY5L._AC_UF1000,1000_QL80_.jpg",
+        "plataform":"PS2 / PS3 / PsVita"
+    },
+    {
+        "id":3,
+        "name":"League Of Legends",
+        "year":"2009",
+        "imglink":"https://i.pinimg.com/originals/c5/6c/77/c56c774ee09e3e16bf12460dea765109.jpg",
+        "plataform":"PC"
+    },
+    {
+        "id":4,
+        "name":"Resident Evil 4 REMAKE",
+        "year":"2023",
+        "imglink":"https://upload.wikimedia.org/wikipedia/pt/3/30/Resident_Evil_4_%28remake%29.png",
+        "plataform":"PS4 / PS5 / XBOX Series / PC"
+    },
+    {
+        "id":5,
+        "name":"Call Of Duty Modern Warfare",
+        "year":"2019",
+        "imglink":"https://www.activision.com/content/dam/atvi/activision/atvi-touchui/activision/home/assets/cod-mw.jpg",
+        "plataform":"PC / PS4 / XBOX"
+    },
+    {
+        "id":6,
+        "name":"God Of War 2018",
+        "year":"2018",
+        "imglink":"https://upload.wikimedia.org/wikipedia/pt/8/82/God_of_War_2018_capa.png",
+        "plataform":"PS4 / PC"
+    },
+    {
+        "id":7,
+        "name":"God Of War 2",
+        "year":"2005",
+        "imglink":"https://m.media-amazon.com/images/I/518wjkgeY5L._AC_UF1000,1000_QL80_.jpg",
+        "plataform":"PS2 / PS3 / PsVita"
+    },
+    {
+        "id":8,
+        "name":"God Of War 2",
+        "year":"2005",
+        "imglink":"https://m.media-amazon.com/images/I/518wjkgeY5L._AC_UF1000,1000_QL80_.jpg",
+        "plataform":"PS2 / PS3 / PsVita"
+    },
+    {
+        "id":9,
+        "name":"God Of War 2",
+        "year":"2005",
+        "imglink":"https://m.media-amazon.com/images/I/518wjkgeY5L._AC_UF1000,1000_QL80_.jpg",
+        "plataform":"PS2 / PS3 / PsVita"
+    },
+    {
+        "id":10,
+        "name":"God Of War 2",
         "year":"2005",
         "imglink":"https://m.media-amazon.com/images/I/518wjkgeY5L._AC_UF1000,1000_QL80_.jpg",
         "plataform":"PS2 / PS3 / PsVita"

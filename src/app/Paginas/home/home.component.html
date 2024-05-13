@@ -10,15 +10,13 @@
     <h1>Recomendados e Destaque</h1>
 
     <div class="games-imgs">
-      <tr>
-        <td *ngFor="let i of imgforg">
+        <td *ngFor="let i of games">
           <div class="gameimg-container">
             <figure>
-              <img src="{{ i }}" alt="dsad" />
+              <img src="{{i.imglink}}" alt="dsad" />
             </figure>
           </div>
         </td>
-      </tr>
     </div>
     <br />
 
