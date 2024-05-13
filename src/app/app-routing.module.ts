@@ -5,10 +5,12 @@ import { CadastroComponent } from './Paginas/cadastro/cadastro.component';
 import { SobreNosComponent } from './Paginas/sobre-nos/sobre-nos.component';
 import { ContatoComponent } from './Paginas/contato/contato.component';
 import { AjudaComponent } from './Paginas/ajuda/ajuda.component';
+import { LoginComponent } from './Paginas/login/login.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'cadastro', component: CadastroComponent },
+  { path: 'login', component: LoginComponent },
   { path: 'sobre-nos', component: SobreNosComponent },
   { path: 'contato', component: ContatoComponent },
   { path: 'ajuda', component: AjudaComponent },

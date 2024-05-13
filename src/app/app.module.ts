@@ -11,6 +11,7 @@ import { CadastroComponent } from './Paginas/cadastro/cadastro.component';
 import { SobreNosComponent } from './Paginas/sobre-nos/sobre-nos.component';
 import { ContatoComponent } from './Paginas/contato/contato.component';
 import { AjudaComponent } from './Paginas/ajuda/ajuda.component';
+import { LoginComponent } from './Paginas/login/login.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { AjudaComponent } from './Paginas/ajuda/ajuda.component';
     CadastroComponent,
     SobreNosComponent,
     ContatoComponent,
-    AjudaComponent
+    AjudaComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

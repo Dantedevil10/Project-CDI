@@ -8,8 +8,22 @@
     <br />
 
     <h1>Recomendados e Destaque</h1>
+    <section class="diferent">
+      <body>
+        <input type="radio" name="position" />
+        <input type="radio" name="position" />
+        <input type="radio" name="position" checked/>
+        <input type="radio" name="position" />
+        <input type="radio" name="position" />
+        <main id="carousel">
+          <div class="item" *ngFor="let i of games">
+            <img src="{{i.imglink}}" alt="">
+          </div> 
+        </main>
+      </body>
+    </section>
 
-    <div class="games-imgs">
+    <!-- <div class="games-imgs">
         <td *ngFor="let i of games">
           <div class="gameimg-container">
             <figure>
@@ -17,7 +31,7 @@
             </figure>
           </div>
         </td>
-    </div>
+    </div> -->
     <br />
 
     <div class="text-container">
