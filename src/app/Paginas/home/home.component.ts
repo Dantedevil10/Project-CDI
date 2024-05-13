@@ -4,6 +4,7 @@ import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { environment } from '../../../environments/environment';
 import { Observable } from 'rxjs';
+import { map } from 'rxjs/operators';
 
 
 @Component({
@@ -13,8 +14,9 @@ import { Observable } from 'rxjs';
 })
 export class HomeComponent {
 
-  games: GamesRe[] = [];
-  // games = new Observable<GamesRe[]>();
+  // games: GamesRe[] = [];   => Jeito Menos Profissional Não Apague
+
+  games = new Observable<GamesRe[]>();
 
   constructor(private GamesService:GamesService){
 
@@ -23,9 +25,12 @@ export class HomeComponent {
   }
   
   Obter3JogosDisp() {
-    this.GamesService.ObterJogos()
-    .subscribe(games => this.games=games.slice(1,6))
-    // this.games = this.GamesService.ObterJogos();
+    // this.GamesService.ObterJogos()
+    // .subscribe(games => this.games=games.slice(1,6))   => Jeito Menos Profissional Não Apague
+
+
+    this.games = this.GamesService.ObterJogos().pipe(map(games=>games.slice(1,6)));
+
 
   }
   
