@@ -1,4 +1,4 @@
-import { GamesRe } from './../../models/games.model';
+import { GamesRe } from '../../../models/games.model';
 import { GamesService } from './../../services/games.service';
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
