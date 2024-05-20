@@ -1,4 +1,4 @@
-export interface Games{
+export interface GamesRe{
     id? :number,
     name:string,
     year:string,
