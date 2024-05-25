@@ -1,0 +1,16 @@
+<br>
+<div class="vamove" >
+    <form [formGroup]="form" >
+    <label for="nome">Nome Do Seu Jogo:</label>
+    <input type="text" id="nome" formControlName="nomedojogo">
+    <label for="imagi">Imagem:</label>
+    <input type="text" id="imagi" formControlName="imagem">
+    <label for="resumo">Resumo DO Jogo:</label>
+    <input type="text" id="resumo" formControlName="sumario">
+    <label for="plataforma">Plataforma:</label>
+    <input type="text" id="plataforma" formControlName="plataforma">
+    <label for="anu">Ano De Lançamento:</label>
+    <input type="text" id="anu" formControlName="anodelancamento">
+    <input type="button" value="Submit" (click)="onSubmit()">
+  </form>
+</div><br>

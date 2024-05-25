@@ -2,7 +2,6 @@ import { GamesRe } from '../../../models/games.model';
 import { GamesService } from './../../services/games.service';
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { environment } from '../../../environments/environment';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 
@@ -13,7 +12,6 @@ import { map } from 'rxjs/operators';
   styleUrl: './home.component.sass'
 })
 export class HomeComponent {
-
   // games: GamesRe[] = [];   => Jeito Menos Profissional Não Apague
 
   games = new Observable<GamesRe[]>();
@@ -21,17 +19,18 @@ export class HomeComponent {
   constructor(private GamesService:GamesService){
 
     this.Obter3JogosDisp()
- 
+
   }
-  
+
   Obter3JogosDisp() {
     // this.GamesService.ObterJogos()
     // .subscribe(games => this.games=games.slice(1,6))   => Jeito Menos Profissional Não Apague
 
 
-    this.games = this.GamesService.ObterJogos().pipe(map(games=>games.slice(1,6)));
+    this.games = this.GamesService.Dados().pipe(map(games=>games.slice(1,6)));
 
 
   }
-  
+
+
 }

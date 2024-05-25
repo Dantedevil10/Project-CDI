@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component,OnInit } from '@angular/core';
+import { Router,NavigationEnd } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,19 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.sass'
 })
 export class AppComponent {
-  title = 'ProjectCDI';
+
+  showHeader:boolean=true
+  showFooter:boolean=true
+
+  constructor(private router:Router){}
+
+  ngOnInit(){
+    this.router.events.subscribe(event=>{
+      if(event instanceof NavigationEnd){
+        this.showHeader = !['/cadastro','/login'].includes(event.url)
+        this.showFooter = !['/cadastro','/login'].includes(event.url)
+      }
+    })
+  }
+
 }
