@@ -6,6 +6,8 @@ import { SobreNosComponent } from './Paginas/sobre-nos/sobre-nos.component';
 import { ContatoComponent } from './Paginas/contato/contato.component';
 import { AjudaComponent } from './Paginas/ajuda/ajuda.component';
 import { LoginComponent } from './Componentes/login/login.component';
+import { CompotestComponent } from './testecompo/compotest/compotest.component';
+import { CompotestListComponent } from './testecompo/compotest-list/compotest-list.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -14,6 +16,7 @@ const routes: Routes = [
   { path: 'sobre-nos', component: SobreNosComponent },
   { path: 'contato', component: ContatoComponent },
   { path: 'ajuda', component: AjudaComponent },
+  { path: 'criar', component: CompotestListComponent },
   { path: '**', component: HomeComponent }, // Rota Principal Caso O Caminho Não Seja Encontrado
 ];
 

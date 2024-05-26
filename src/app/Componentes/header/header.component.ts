@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './header.component.sass'
 })
 export class HeaderComponent {
-  Notlogged:boolean = true;
+  
 }

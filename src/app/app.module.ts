@@ -12,6 +12,9 @@ import { SobreNosComponent } from './Paginas/sobre-nos/sobre-nos.component';
 import { ContatoComponent } from './Paginas/contato/contato.component';
 import { AjudaComponent } from './Paginas/ajuda/ajuda.component';
 import { LoginComponent } from './Componentes/login/login.component';
+import { CompotestComponent } from './testecompo/compotest/compotest.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { CompotestListComponent } from './testecompo/compotest-list/compotest-list.component';
 
 
 @NgModule({
@@ -24,12 +27,15 @@ import { LoginComponent } from './Componentes/login/login.component';
     SobreNosComponent,
     ContatoComponent,
     AjudaComponent,
-    LoginComponent
+    LoginComponent,
+    CompotestComponent,
+    CompotestListComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

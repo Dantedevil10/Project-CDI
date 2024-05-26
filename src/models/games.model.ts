@@ -1,7 +1,7 @@
 export interface GamesRe{
-    id? :number,
-    name:string,
-    year:string,
-    imglink:string,
-    palatform:string
+  id :number,
+  name:string,
+  year:string,
+  imglink:string,
+  plataform:string
 }
