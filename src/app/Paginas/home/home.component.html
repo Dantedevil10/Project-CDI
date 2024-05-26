@@ -11,9 +11,9 @@
         <input type="radio" name="position" />
         <input type="radio" name="position" />
         <main id="carousel">
-          <div class="item" >
-            <img src="" alt="">
-          </div> 
+          <div class="item" *ngFor="let i of games | async">
+            <img src="{{i.imglink}}" alt="">
+          </div>
         </main>
       </body>
     </section>

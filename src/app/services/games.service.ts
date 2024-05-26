@@ -10,7 +10,7 @@ import { Observable } from 'rxjs';
 export class GamesService{
 
     private urlapi = 'http://localhost:8080/api/games'
-    private urlfakeapi = 'http://localhost:3000'
+    private urlfakeapi = 'http://localhost:3000/games'
 
     constructor(private http:HttpClient){
 
@@ -19,6 +19,7 @@ export class GamesService{
     Dados(){
       return this.http.get<GamesRe[]>(this.urlfakeapi)
     }
+
     SalvarDados(gravar:Partial<GamesRe>){
       return this.http.post<GamesRe>(this.urlapi,gravar)
     }

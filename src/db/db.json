@@ -1,74 +1,44 @@
 {
     "games":[
     {
-        "id":1,
-        "name":"God Of War",
-        "year":"2005",
-        "imglink":"https://m.media-amazon.com/images/I/91VKfyGGkYL._AC_UF1000,1000_QL80_.jpg",
-        "plataform":"PS2 / PS3 / PsVita"
+      "id":1,
+      "name":"God Of War",
+      "year":"2005",
+      "imglink":"https://m.media-amazon.com/images/I/91VKfyGGkYL._AC_UF1000,1000_QL80_.jpg",
+      "resume":"God of War foi lançado pela primeira vez na América do Norte em 22 de março de 2005, para o PlayStation 2. Após dez anos a serviço dos deuses do Olimpo, o espartano Kratos é encarregado por Atena de encontrar a Caixa de Pandora; a chave para derrotar Ares, o deus da guerra, que está destruindo a cidade de Atenas. Uma série de flashbacks revelam que Kratos já foi o servo de Ares, que salvou o espartano e seu exército da aniquilação em uma batalha, mas o enganou para matar sua família, o que forçou sua metamorfose de Fantasma de Esparta. Kratos eventualmente encontra a Caixa de Pandora, e depois de finalmente matar Ares, ele ascende ao Monte Olimpo para se tornar o novo deus da guerra.",
+      "plataform":"PS2 / PS3 / PsVita"
     },
     {
-        "id":2,
-        "name":"God Of War 2",
-        "year":"2006",
-        "imglink":"https://m.media-amazon.com/images/I/518wjkgeY5L._AC_UF1000,1000_QL80_.jpg",
-        "plataform":"PS2 / PS3 / PsVita"
+      "id":2,
+      "name":"God Of War 2",
+      "year":"2006",
+      "imglink":"https://i.pinimg.com/originals/76/ad/43/76ad433fc74a6f9e5df2c1b933d7732f.jpg",
+      "resume":"Após derrotar Ares e conseguir sua vingança, Kratos ascende ao Olimpo e torna-se o novo Deus da Guerra. Mas seus problemas estão só começando - humilhado e novamente traído, o Fantasma de Esparta descobre o verdadeiro jogo dos deuses, no qual é apenas uma peça. Agora eles devem pagar.",
+      "plataform":"PS2 / PS3 / PsVita"
     },
     {
-        "id":3,
-        "name":"League Of Legends",
-        "year":"2009",
-        "imglink":"https://i.pinimg.com/originals/c5/6c/77/c56c774ee09e3e16bf12460dea765109.jpg",
-        "plataform":"PC"
+      "id":3,
+      "name":"Resident Evil 4 Remake",
+      "year":"2023",
+      "imglink":"https://image.api.playstation.com/vulcan/ap/rnd/202210/0712/cWZlv5HCWi4sGKuwVRO4c8Xg.png",
+      "resume":"Situado seis anos após o incidente de Raccoon City, Resident Evil 4 traz Leon S. Kennedy de volta como protagonista. Escolhido para integrar uma equipe especial do governo, Leon parte em uma missão para resgatar a filha do presidente dos Estados Unidos, Ashley Graham, raptada por um grupo misterioso.",
+      "plataform":"PS4 / PS5 / Xbox / PC"
     },
     {
-        "id":4,
-        "name":"Resident Evil 4 REMAKE",
-        "year":"2023",
-        "imglink":"https://upload.wikimedia.org/wikipedia/pt/3/30/Resident_Evil_4_%28remake%29.png",
-        "plataform":"PS4 / PS5 / XBOX Series / PC"
+      "id":4,
+      "name":"Devil May Cry 3 Dante's Awakening Special Edition",
+      "year":"2005",
+      "imglink":"https://upload.wikimedia.org/wikipedia/pt/c/c1/Dmc3.png",
+      "resume":"Dante funda uma loja de extermínios de demónios a domicílio, a qual nem nome deu ainda. Logo em seguida de Dante sair do banho, um homem misterioso chamado Arkham chega com um convite do irmão de Dante, Vergil, na forma de um ataque brutal de demónios.",
+      "plataform":"PS2 / PS3 / Xbox / PC"
     },
     {
-        "id":5,
-        "name":"Call Of Duty Modern Warfare",
-        "year":"2019",
-        "imglink":"https://www.activision.com/content/dam/atvi/activision/atvi-touchui/activision/home/assets/cod-mw.jpg",
-        "plataform":"PC / PS4 / XBOX"
-    },
-    {
-        "id":6,
-        "name":"God Of War 2018",
-        "year":"2018",
-        "imglink":"https://upload.wikimedia.org/wikipedia/pt/8/82/God_of_War_2018_capa.png",
-        "plataform":"PS4 / PC"
-    },
-    {
-        "id":7,
-        "name":"God Of War 2",
-        "year":"2005",
-        "imglink":"https://m.media-amazon.com/images/I/518wjkgeY5L._AC_UF1000,1000_QL80_.jpg",
-        "plataform":"PS2 / PS3 / PsVita"
-    },
-    {
-        "id":8,
-        "name":"God Of War 2",
-        "year":"2005",
-        "imglink":"https://m.media-amazon.com/images/I/518wjkgeY5L._AC_UF1000,1000_QL80_.jpg",
-        "plataform":"PS2 / PS3 / PsVita"
-    },
-    {
-        "id":9,
-        "name":"God Of War 2",
-        "year":"2005",
-        "imglink":"https://m.media-amazon.com/images/I/518wjkgeY5L._AC_UF1000,1000_QL80_.jpg",
-        "plataform":"PS2 / PS3 / PsVita"
-    },
-    {
-        "id":10,
-        "name":"God Of War 2",
-        "year":"2005",
-        "imglink":"https://m.media-amazon.com/images/I/518wjkgeY5L._AC_UF1000,1000_QL80_.jpg",
-        "plataform":"PS2 / PS3 / PsVita"
+      "id":5,
+      "name":"Need For Speed Most Wanted(2005)",
+      "year":"2005",
+      "imglink":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_ayBEGu9nPlCS3HbBDt1vImrgaSWFtfgPI03CDr1nPsbJwSci5ZUU-2YgBHg2KWEktlo&usqp=CAU",
+      "resume":"Need for Speed: Most Wanted é um jogo eletrônico de corrida de 2005, e a nona edição da série Need for Speed. Desenvolvido pela EA Canada e EA Black Box e publicado pela Electronic Arts, foi lançado em 11 de novembro de 2005 para PlayStation 2, Xbox, GameCube, Nintendo DS, Microsoft Windows, Game Boy Advance e Xbox 360. Uma versão adicional, Need for Speed: Most Wanted 5-1-0, foi lançada no mesmo ano para PlayStation Portable.",
+      "plataform":"PS2 / Xbox / PC / NintendoGC"
     }
-]
+  ]
 }

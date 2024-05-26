@@ -1,4 +1,4 @@
-import { GamesRe } from '../../../models/games.model';
+import { GamesRe } from './../../../models/games.model';
 import { GamesService } from './../../services/games.service';
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
@@ -27,7 +27,7 @@ export class HomeComponent {
     // .subscribe(games => this.games=games.slice(1,6))   => Jeito Menos Profissional Não Apague
 
 
-    this.games = this.GamesService.Dados().pipe(map(games=>games.slice(1,6)));
+    this.games = this.GamesService.Dados().pipe(map(games=>games.slice(0,5)));
 
 
   }

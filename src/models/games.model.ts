@@ -1,8 +1,7 @@
 export interface GamesRe{
-    id :number,
-    nomedojogo:string,
-    imagem:string,
-    sumario:string,
-    plataforma:string,
-    anodelancamento:number
+  id :number,
+  name:string,
+  year:string,
+  imglink:string,
+  plataform:string
 }
