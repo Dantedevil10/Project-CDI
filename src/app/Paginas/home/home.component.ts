@@ -14,9 +14,9 @@ import { map } from 'rxjs/operators';
 export class HomeComponent {
   // games: GamesRe[] = [];   => Jeito Menos Profissional Não Apague
 
-  games = new Observable<GamesRe[]>();
+  games$ = new Observable<GamesRe[]>();
 
-  constructor(private GamesService:GamesService){
+  constructor(private gamesService:GamesService){
 
     this.Obter3JogosDisp()
 
@@ -27,7 +27,7 @@ export class HomeComponent {
     // .subscribe(games => this.games=games.slice(1,6))   => Jeito Menos Profissional Não Apague
 
 
-    this.games = this.GamesService.Dados().pipe(map(games=>games.slice(0,5)));
+    this.games$ = this.gamesService.DadosGames().pipe(map(games=>games.slice(0,5)));
 
 
   }

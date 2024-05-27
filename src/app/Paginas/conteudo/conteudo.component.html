@@ -1,0 +1,18 @@
+<div>
+  <section>
+    <span>
+    <h1>Experimente Um Pouco</h1>
+    </span>
+
+    <div class="games-imgs">
+        <td *ngFor="let i of games$ | async" class="content">
+          <div class="gameimg-container">
+            <figure>
+            <a routerLink="/conteudo/{{i.id}}"><img src="{{i.imglink}}" alt="dsad" /></a>
+            </figure>
+          </div>
+        </td>
+    </div>
+    
+  </section>
+</div>

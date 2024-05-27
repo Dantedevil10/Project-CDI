@@ -1,5 +1,5 @@
 import { Component, EventEmitter,Input,Output } from '@angular/core';
-//import { GamesRe } from '../../../models/games.model';
+import { Users } from '../../../models/extra.model';
 import { GamesService } from '../../services/games.service';
 import { Observable } from 'rxjs';
 import { NonNullableFormBuilder } from '@angular/forms';
@@ -14,18 +14,12 @@ export class CompotestComponent {
 
   //@Output() edit = new EventEmitter<GamesRe>();
 
-  //games$: Observable<GamesRe[]>
-  // form = this.formB.group({
-  //   nomedojogo: [''],
-  //   imagem:[''],
-  //   sumario:[''],
-  //   plataforma:[''],
-  //   anodelancamento:[0]
-  // })
+  users$: Observable<Users[]>
+
 
   constructor(private gamesService:GamesService,private formB:NonNullableFormBuilder){
 
-   // this.games$=this.gamesService.Dados();
+    this.users$=this.gamesService.DadosUsers();
   }
 
   // Edit(games:GamesRe){
@@ -34,12 +28,8 @@ export class CompotestComponent {
 
 
   Obter():void{
-    // this.games=this.gamesService.Dados();
+    // this.games=this.gamesService.DadosUsers();
 
   }
-  // onSubmit(){
-  //   this.gamesService.SalvarDados(this.form.value)
-  //   .subscribe(result=>alert('Salvo Com Sucesso'+result),
-  //   error=>alert('erro ao salvar dados' + error))
-  // }
+  
 }

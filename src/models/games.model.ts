@@ -1,7 +1,8 @@
 export interface GamesRe{
-  id :number,
+  id:number,
   name:string,
   year:string,
   imglink:string,
-  plataform:string
+  plataform:string,
+  resume:string
 }
