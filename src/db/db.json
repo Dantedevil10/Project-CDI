@@ -6,7 +6,7 @@
       "year":"2005",
       "imglink":"https://m.media-amazon.com/images/I/91VKfyGGkYL._AC_UF1000,1000_QL80_.jpg",
       "resume":"God of War foi lançado pela primeira vez na América do Norte em 22 de março de 2005, para o PlayStation 2. Após dez anos a serviço dos deuses do Olimpo, o espartano Kratos é encarregado por Atena de encontrar a Caixa de Pandora; a chave para derrotar Ares, o deus da guerra, que está destruindo a cidade de Atenas. Uma série de flashbacks revelam que Kratos já foi o servo de Ares, que salvou o espartano e seu exército da aniquilação em uma batalha, mas o enganou para matar sua família, o que forçou sua metamorfose de Fantasma de Esparta. Kratos eventualmente encontra a Caixa de Pandora, e depois de finalmente matar Ares, ele ascende ao Monte Olimpo para se tornar o novo deus da guerra.",
-      "plataform":"PS2 / PS3 / PsVita"
+      "plataform":" PsVita / PS2 / PS3"
     },
     {
       "id":2,
@@ -14,7 +14,7 @@
       "year":"2006",
       "imglink":"https://i.pinimg.com/originals/76/ad/43/76ad433fc74a6f9e5df2c1b933d7732f.jpg",
       "resume":"Após derrotar Ares e conseguir sua vingança, Kratos ascende ao Olimpo e torna-se o novo Deus da Guerra. Mas seus problemas estão só começando - humilhado e novamente traído, o Fantasma de Esparta descobre o verdadeiro jogo dos deuses, no qual é apenas uma peça. Agora eles devem pagar.",
-      "plataform":"PS2 / PS3 / PsVita"
+      "plataform":" PsVita / PS2 / PS3"
     },
     {
       "id":3,
@@ -34,51 +34,131 @@
     },
     {
       "id":5,
-      "name":"Devil May Cry 3 Dante's Awakening Special Edition",
-      "year":"2005",
-      "imglink":"https://upload.wikimedia.org/wikipedia/pt/c/c1/Dmc3.png",
-      "resume":"Dante funda uma loja de extermínios de demónios a domicílio, a qual nem nome deu ainda. Logo em seguida de Dante sair do banho, um homem misterioso chamado Arkham chega com um convite do irmão de Dante, Vergil, na forma de um ataque brutal de demónios.",
-      "plataform":"PS2 / PS3 / Xbox / PC"
+      "name":"Grand Theft Auto 5",
+      "year":"2013",
+      "imglink":"https://hips.hearstapps.com/digitalspyuk.cdnds.net/13/14/gaming-gta5-cover.jpeg",
+      "resume":"O jogo se passa no estado ficcional de San Andreas, com a história da campanha um jogador seguindo três criminosos e seus esforços para realizarem assaltos sob a pressão de uma agência governamental.",
+      "plataform":"PS4 / Xbox / PC"
     },
     {
       "id":6,
-      "name":"Devil May Cry 3 Dante's Awakening Special Edition",
-      "year":"2005",
-      "imglink":"https://upload.wikimedia.org/wikipedia/pt/c/c1/Dmc3.png",
-      "resume":"Dante funda uma loja de extermínios de demónios a domicílio, a qual nem nome deu ainda. Logo em seguida de Dante sair do banho, um homem misterioso chamado Arkham chega com um convite do irmão de Dante, Vergil, na forma de um ataque brutal de demónios.",
-      "plataform":"PS2 / PS3 / Xbox / PC"
+      "name":"Silent Hill",
+      "year":"1999",
+      "imglink":"https://i.redd.it/4sw70wnj9vyb1.png",
+      "resume":"O jogo segue Harry Mason enquanto ele procura por sua filha na cidade americana fictícia de Silent Hill. No decorrer do enredo, Harry descobre a verdade sobre a cidade e um culto religioso que deseja realizar um ritual para trazer uma divindade à terra.",
+      "plataform":"PS1 / PS2 / PC  "
     },
     {
       "id":7,
-      "name":"Devil May Cry 3 Dante's Awakening Special Edition",
-      "year":"2005",
-      "imglink":"https://upload.wikimedia.org/wikipedia/pt/c/c1/Dmc3.png",
-      "resume":"Dante funda uma loja de extermínios de demónios a domicílio, a qual nem nome deu ainda. Logo em seguida de Dante sair do banho, um homem misterioso chamado Arkham chega com um convite do irmão de Dante, Vergil, na forma de um ataque brutal de demónios.",
-      "plataform":"PS2 / PS3 / Xbox / PC"
+      "name":"Metal Gear Solid",
+      "year":"1998",
+      "imglink":"https://i.redd.it/d2maurdtf04b1.jpg",
+      "resume":"Metal Gear Solid se passa em 2005, a sudoeste do Alasca no mar de Bering. Ela se foca em Solid Snake, um soldado ex-aposentado que se infiltra numa instalação de eliminação de armas nucleares para neutralizar uma ameaça terrorista da FOXHOUND, uma unidade de forças especiais. Snake deve resgatar dois reféns: o chefe da DARPA e o presidente de uma fabricante de armas, além de enfrentar os terroristas e impedí-los de lançar um ataque nuclear.",
+      "plataform":"PS1 / PS3 / Nitendo Switch / PC"
     },
     {
       "id":8,
-      "name":"Devil May Cry 3 Dante's Awakening Special Edition",
+      "name":"Red Dead Redemption 2",
       "year":"2005",
-      "imglink":"https://upload.wikimedia.org/wikipedia/pt/c/c1/Dmc3.png",
-      "resume":"Dante funda uma loja de extermínios de demónios a domicílio, a qual nem nome deu ainda. Logo em seguida de Dante sair do banho, um homem misterioso chamado Arkham chega com um convite do irmão de Dante, Vergil, na forma de um ataque brutal de demónios.",
-      "plataform":"PS2 / PS3 / Xbox / PC"
+      "imglink":"https://www.outerspace.com.br/wp-content/uploads/2018/05/red_dead_redemption_2_cover_art.jpg",
+      "resume":"Depois de tudo dar errado em um roubo na cidade de Blackwater, no faroeste, Arthur Morgan e a gangue Van der Linde são obrigados a fugir. Com agentes federais e os melhores caçadores de recompensas no seu encalço, a gangue terá que roubar, assaltar e lutar para sobreviver no implacável coração dos Estados Unidos.",
+      "plataform":"PS4 / Xbox / PC"
     },
     {
       "id":9,
-      "name":"Devil May Cry 3 Dante's Awakening Special Edition",
-      "year":"2005",
-      "imglink":"https://upload.wikimedia.org/wikipedia/pt/c/c1/Dmc3.png",
-      "resume":"Dante funda uma loja de extermínios de demónios a domicílio, a qual nem nome deu ainda. Logo em seguida de Dante sair do banho, um homem misterioso chamado Arkham chega com um convite do irmão de Dante, Vergil, na forma de um ataque brutal de demónios.",
-      "plataform":"PS2 / PS3 / Xbox / PC"
+      "name":"Valorant",
+      "year":"2020",
+      "imglink":"https://assetsio.gnwcdn.com/co2mvt.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp",
+      "resume":"Duas equipes de cinco jogam uma contra a outra, e os jogadores assumem o papel de agentes com habilidades únicas. No modo de jogo principal, a equipe atacante tem uma bomba, chamada Spike, que eles precisam plantar em um local. Se a equipe atacante proteger com sucesso a bomba e ela detonar, eles ganharão um ponto. Se a equipe defensora desarmar com sucesso a bomba ou o cronômetro de 100 segundos da rodada expirar, a equipe defensora receberá um ponto. Eliminar todos os membros da equipe adversária também ganha uma rodada. A primeira equipe a vencer o melhor de 24 rodadas vence a partida.[3] O jogo também promove um servidor com tick rate de 128, que garante uma jogabilidade suave e baixo ping com uma expansão global de data centers.",
+      "plataform":"PC"
     },
     {
       "id":10,
+      "name":"CS-GO",
+      "year":"2012",
+      "imglink":"https://globalbookclub.s3.amazonaws.com/resources/4099395/segredos_de_counter_strike_global_offensive_csgo_2022/cover.jpg",
+      "resume":"CS:GO é um FPS da Valve disputado entre duas equipes. Elas se revezam entre terroristas e contra terroristas, os terroristas armam a bomba enquanto o outro time protege os sites, locais onde os explosivos devem ser plantados. Alguns mapas funcionam com reféns, que por sua vez devem ser salvos pelos contra terroristas.",
+      "plataform":"PS3 / Xbox / PC / macOs"
+    },
+    {
+      "id":11,
       "name":"Need For Speed Most Wanted(2005)",
       "year":"2005",
       "imglink":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_ayBEGu9nPlCS3HbBDt1vImrgaSWFtfgPI03CDr1nPsbJwSci5ZUU-2YgBHg2KWEktlo&usqp=CAU",
       "resume":"Need for Speed: Most Wanted é um jogo eletrônico de corrida de 2005, e a nona edição da série Need for Speed. Desenvolvido pela EA Canada e EA Black Box e publicado pela Electronic Arts, foi lançado em 11 de novembro de 2005 para PlayStation 2, Xbox, GameCube, Nintendo DS, Microsoft Windows, Game Boy Advance e Xbox 360. Uma versão adicional, Need for Speed: Most Wanted 5-1-0, foi lançada no mesmo ano para PlayStation Portable.",
-      "plataform":"PS2 / Xbox / PC / NintendoGC"
+      "plataform":" NintendoGC / PS2 / Xbox / PC"
+    },
+    {
+      "id":12,
+      "name":"Dragon Ball Z: Budokai Tenkaichi",
+      "year":"2005",
+      "imglink":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh4J_HwKVQ_otzWsFz8E5XUR8bju5U3UiAQ8Y56oraFA&s",
+      "resume":"O jogo apresenta 81 personagens jogáveis em 90 formas e 10 estágios para a batalha. Os jogadores podem lutar em toda a terra devastada, área de Rock da terra, Planeta Namek, as ilhas, as ruínas da cidade, câmara hiperbólica do tempo, a Arena de jogos de célula, estrada da montanha, a Arena do torneio mundial e Lookout do Kami.",
+      "plataform":"Wii / PS2"
+    },
+    {
+      "id":13,
+      "name":"Dragon Ball Z Budokai Tenkaichi 2",
+      "year":"2006",
+      "imglink":"https://upload.wikimedia.org/wikipedia/pt/9/92/DBZ_BT2.jpg",
+      "resume":"É uma sequência de Dragon Ball Z: Budokkai Tenkaichi. O jogo possui um total de cento e vinte e nove personagens e seis adicionais na versão para Wii ",
+      "plataform":"Wii / PS2"
+    },
+    {
+      "id":14,
+      "name":"Fortnite",
+      "year":"2017",
+      "imglink":"https://i0.wp.com/xxboxnews.blob.core.windows.net/prod/sites/8/2023/11/Fort-00672da9aba18eac3f93.jpg?ssl=1",
+      "resume":"Fortnite Battle Royale é um modo de jogo do gênero battle royale para até 100 jogadores, jogando sozinho ou em grupos de dois a quatro amigos. Os jogadores deixam um ônibus de batalha que cruza o mapa do jogo sem nenhuma arma. Quando eles pousam, eles devem procurar por armas, itens e recursos, evitando de serem mortos enquanto atacam outros jogadores. Ao longo de uma rodada, a área segura do mapa diminui de tamanho devido a uma tempestade que chega; os jogadores fora daquela área recebem dano e podem ser mortos. Isso força os jogadores remanescentes a irem para um espaço mais apertado e incentiva os encontros dos jogadores. O último jogador ou time vivo é o vencedor.",
+      "plataform":"Nintendo Switch / PS4 / PS5 / Xbox / PC / macOs"
+    },
+    {
+      "id":15,
+      "name":"Crash Bandicoot 3: Warped",
+      "year":"1998",
+      "imglink":"https://upload.wikimedia.org/wikipedia/pt/e/e1/Crash_Bandicoot_3_capa.png",
+      "resume":"Após a destruição da estação de Cortex por Dr. Nitrus Brio e Crash Bandicoot, um fragmento cai na Terra, liberando a máscara maligna Uka-Uka. Na ilha N. Sanity, os Bandicoots ouvem uma risada sinistra e são convocados por Aku-Aku. Enquanto isso, Uka-Uka briga com Cortex e recruta o Dr. N. Tropy para ajudar a dominar o mundo usando o Tornado Temporal. Crash é encarregado de coletar cristais para detê-los. Ele derrota Tiny Tiger e Dingodile, enquanto Coco vence N.Gin. Após uma batalha, Crash e Aku-Aku derrotam Cortex e Uka-Uka, frustrando seus planos de dominação.",
+      "plataform":"PSVita / PSPortavel / PS1 / PS3"
+    },
+    {
+      "id":16,
+      "name":"Doom",
+      "year":"1993",
+      "imglink":"https://upload.wikimedia.org/wikipedia/pt/5/57/Doom_cover_art.jpg",
+      "resume":"O jogador assume o papel de um fuzileiro espacial deportado para Marte após se recusar a obedecer ordens injustas. Trabalhando para a Union Aerospace Corporation (UAC), ele testemunha experimentos de teletransporte entre as luas Phobos e Deimos. Um erro durante os experimentos libera criaturas demoníacas que invadem a base, transformando os soldados em zumbis. A resposta defensiva falha e Deimos desaparece. Uma equipe é enviada a Phobos, mas apenas o jogador sobrevive. Sua missão: escapar vivo.",
+      "plataform":"DOS / PS1 / PS3 / XBOX / PC / macOs"
+    },
+    {
+      "id":17,
+      "name":"Elden Ring",
+      "year":"2022",
+      "imglink":"https://m.media-amazon.com/images/I/6110RSDn3PL._AC_UF1000,1000_QL80_.jpg",
+      "resume":"Elden Ring ocorre no reino das Terras Intermédias, algum tempo após a destruição do Anel Prístino e a dispersão de seus fragmentos, as Grandes Runas. Uma vez agraciado pelo anel e o Erdtree que simboliza sua presença, o reino agora é governado pela descendência semideusa da Rainha Marika, a Eterna, cada um possuindo um fragmento do anel que os corrompe e os mancha com poder. Como um Maculado — um exilado das Terras Intermédias e que perdeu a graça do anel e convocado de volta após a Fragmentação — o jogador deve atravessar o reino para encontrar todas as Grandes Runas, restaurar o Anel Prístino e se tornar o Lorde Prístino.",
+      "plataform":"PS4 / PS5 / Xbox / PC"
+    },
+    {
+      "id":18,
+      "name":"Cyberpunk 2077",
+      "year":"2020",
+      "imglink":"https://digital.datablitz.com.ph/cdn/shop/products/DATABLITZ_CyberPunk.png?v=1672379201",
+      "resume":"Night City é uma megacidade no Estado Livre da Califórnia do Norte, controlada por corporações e independentes de legislações nacionais. O conflito entre gangues e poderes em busca de controle é constante. A cidade depende da robótica para suas necessidades diárias, mas a falta de habitação é comum, levando à modificação cibernética entre os pobres e ao aumento da violência. A internet é controlada pelo exército e corporações. A força policial, conhecida como Psycho Squad, enfrenta essas ameaças, enquanto o Trauma Team oferece assistência médica rápida. Devido ao perigo constante, o uso de armas de fogo é permitido a todos os cidadãos.",
+      "plataform":"PS4 / PS5 / Xbox / PC"
+    },
+    {
+      "id":19,
+      "name":"Minecraft",
+      "year":"2009",
+      "imglink":"https://i.pinimg.com/736x/cb/62/90/cb6290ec436941da956f4a6080a29d22.jpg",
+      "resume":"No Minecraft, o jogador é deixado em um mundo aberto e gerado aleatoriamente, sem uma narrativa pré-definida. No entanto, muitos jogadores criam suas próprias histórias e objetivos enquanto exploram, constroem e sobrevivem no mundo do jogo. Alguns elementos que podem ser encontrados incluem a busca por recursos para construção e sobrevivência, a exploração de cavernas e masmorras em busca de tesouros e enfrentar diversos tipos de inimigos, como zumbis, esqueletos e creepers. Além disso, há a possibilidade de interagir com aldeões, criar e expandir sua própria base ou vila, e até mesmo entrar no Nether ou no End para enfrentar desafios adicionais. Em resumo, a história do Minecraft é a história que o jogador decide criar enquanto explora e interage com o vasto mundo do jogo.",
+      "plataform":"NintendoGC / PS3 / Nitendo Switch / PS4 / Xbox / PC"
+    },
+    {
+      "id":20,
+      "name":"The witcher",
+      "year":"2007",
+      "imglink":"https://upload.wikimedia.org/wikipedia/pt/9/90/The_Wicher_1_capa.png",
+      "resume":"The Witcher segue a história de Geralt de Rívia, um Bruxo mutante — um caçador de monstros viajante, com poderes sobrenaturais. O jogo se passa em um mundo medieval ficcional, com detalhes visuais realistas.",
+      "plataform":"PC / macOS"
     }
   ]
 }

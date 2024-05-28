@@ -6,8 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './cadastro.component.sass'
 })
 export class CadastroComponent {
-  constructor(){}
 
+  constructor(){
 
+  }
   
 }

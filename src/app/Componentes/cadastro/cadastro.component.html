@@ -9,20 +9,25 @@
     <div class="pagecad-container">
         <div class="pagecadbox">
             <span class="inputs">
-                <p style="font-size: 13px;">User name</p>
+                <p style="font-size: 13px;">Nome de Usuário* : </p>
                     <input type="text" name="" id="Mytext"  style="background-color: rgba(10, 17, 21, 0.934);border: 1px solid white;">
                 <p></p> <!--Esse p Não pra Nada So é Pra Dar Um Espaçamento-->
-                <p style="font-size: 13px;">Email Adress</p>
+                <p style="font-size: 13px;">Email* : </p>
                     <input type="email" name="" id="Myemail"  style="background-color: rgba(10, 17, 21, 0.934);border: 1px solid white;">
-                <p id="emailmessageerror" style="font-size: 13px;"></p>
-                <p style="font-size: 13px;">Password</p>
+                <p id="emailmessageerror" style="font-size: 13px;"></p> <!--Lógica de erro (email => alerta so caso não tenha @ ou .)-->
+                <p style="font-size: 13px;">Cpf* :</p>
+                <input type="number" name="" id="Mycpf" style="background-color: rgba(10, 17, 21, 0.934);border: 1px solid white;">
+                <p id="cpfmessageerror" style="font-size: 13px;"></p>
+                <p style="font-size: 13px;">Dada de Nascimento* :</p>
+                    <input type="date" name="" id="Mydata" style="background-color: rgba(10, 17, 21, 0.934);border: 1px solid white">
+                <!--<p style="font-size: 13px;">Senha</p>
                     <input type="password" name="" id="Mypassword" style="background-color: rgba(10, 17, 21, 0.934);border: 1px solid white;">
-
+                  -->
             </span>
             <span class="Mybutton">
                 <input type="button" value="Create Account" id="buttonsign">
             </span>
-            
+
         </div>
 
     </div>
