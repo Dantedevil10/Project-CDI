@@ -4,9 +4,24 @@
     <figure>
       <img src="{{games.imglink}}" alt="" width="200px" height="200px">
     </figure>
+    <h1>{{games.name}}</h1>
+    <p>Lançado Para : {{games.plataform}}</p>
   </div>
-  <span>
-    <p>{{games.resume}}</p>
-  </span>
+  <div class="infos">
+    <span>
+      Enredo :
+      <p>{{games.resume}}</p><br>
+
+      <span *ngIf="adinfops2||adinfops1||adinfops3||adinfoPsp||adinfoWii||adinfoGC">
+        <p><b [innerHTML]='adinfops2'></b></p><br>
+        <p><b [innerHTML]='adinfops1'></b></p><br>
+        <p><b [innerHTML]='adinfops3'></b></p><br>
+        <p><b [innerHTML]='adinfoPsp'></b></p><br>
+        <p><b [innerHTML]='adinfoWii'></b></p><br>
+        <p><b [innerHTML]='adinfoGC'></b></p><br>
+      </span>
+      
+    </span>
+  </div><br>
 
 </section>
