@@ -1,16 +1,15 @@
-import { Component, EventEmitter,Input,Output } from '@angular/core';
+import { Component } from '@angular/core';
 import { Users } from '../../../models/extra.model';
 import { GamesService } from '../../services/games.service';
 import { Observable } from 'rxjs';
 import { NonNullableFormBuilder } from '@angular/forms';
 
-
 @Component({
-  selector: 'app-compotest',
-  templateUrl: './compotest.component.html',
-  styleUrl: './compotest.component.sass'
+  selector: 'app-listausers',
+  templateUrl: './listausers.component.html',
+  styleUrl: './listausers.component.sass'
 })
-export class CompotestComponent {
+export class ListausersComponent {
 
   //@Output() edit = new EventEmitter<GamesRe>();
 
@@ -31,5 +30,5 @@ export class CompotestComponent {
     // this.games=this.gamesService.DadosUsers();
 
   }
-  
+
 }

@@ -12,11 +12,10 @@ import { SobreNosComponent } from './Paginas/sobre-nos/sobre-nos.component';
 import { ContatoComponent } from './Paginas/contato/contato.component';
 import { AjudaComponent } from './Paginas/ajuda/ajuda.component';
 import { LoginComponent } from './Componentes/login/login.component';
-import { CompotestComponent } from './testecompo/compotest/compotest.component';
 import { ReactiveFormsModule } from '@angular/forms';
-import { CompotestListComponent } from './testecompo/compotest-list/compotest-list.component';
 import { ConteudoComponent } from './Paginas/conteudo/conteudo.component';
 import { ConteudoDetalheComponent } from './Componentes/conteudo-detalhe/conteudo-detalhe.component';
+import { ListausersComponent } from './Paginas/listausers/listausers.component';
 
 
 @NgModule({
@@ -30,10 +29,9 @@ import { ConteudoDetalheComponent } from './Componentes/conteudo-detalhe/conteud
     ContatoComponent,
     AjudaComponent,
     LoginComponent,
-    CompotestComponent,
-    CompotestListComponent,
     ConteudoComponent,
-    ConteudoDetalheComponent
+    ConteudoDetalheComponent,
+    ListausersComponent
   ],
   imports: [
     BrowserModule,

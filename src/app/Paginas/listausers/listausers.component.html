@@ -1,0 +1,37 @@
+<div>
+    <section>
+
+      <h1 style="text-align: center;">
+        Configure Seus Jogos
+
+      </h1><br>
+
+      <div class="caixajogos">
+        <tr>
+          <td>
+            Nome do Usuario
+          </td>
+          <td>
+            email
+          </td>
+          <td>
+            Data De Nascimento
+          </td>
+
+        </tr>
+        <tr *ngFor="let i of users$ | async " >
+          <td>
+            {{i.username}}
+          </td>
+          <td>
+            {{i.email}}
+          </td>
+          <td>
+            {{i.datanascimento}}
+          </td>
+        </tr>
+
+      </div><br>
+
+    </section>
+  </div>
