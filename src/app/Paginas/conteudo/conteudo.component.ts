@@ -11,8 +11,18 @@ import { GamesService } from '../../services/games.service';
 export class ConteudoComponent {
 
   games$ = new Observable<GamesRe[]>();
+  inputpesq:string=""
+  pesquisa:string=""
+
   constructor(private gamesService:GamesService){
     this.games$ = this.gamesService.DadosGames()
   }
 
+  Pesquisar(){
+    if(this.inputpesq){
+      this.pesquisa=this.inputpesq
+    }else{
+      this.pesquisa=''
+    }
+  }
 }
