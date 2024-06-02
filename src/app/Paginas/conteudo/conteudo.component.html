@@ -1,18 +1,19 @@
 <div>
   <section>
     <span>
-    <h1>Experimente Um Pouco</h1>
-    </span>
+      <h1>Experimente Um Pouco</h1>
+    </span><br>
+    <input type="text" [(ngModel)]="inputpesq" (input)="Pesquisar()">
 
     <div class="games-imgs">
         <td *ngFor="let i of games$ | async" class="content">
-          <div class="gameimg-container">
+          <div class="gameimg-container" *ngIf="i.name.includes(inputpesq)">
             <figure>
             <a routerLink="/conteudo/{{i.id}}"><img src="{{i.imglink}}" alt="dsad" /></a>
             </figure>
           </div>
         </td>
     </div>
-    
+
   </section>
 </div>
