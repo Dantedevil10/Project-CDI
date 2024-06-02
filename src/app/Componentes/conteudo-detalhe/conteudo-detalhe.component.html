@@ -1,15 +1,18 @@
-
 <section *ngIf="games">
-  <div>
+
+  <div class="card-game">
     <figure>
       <img src="{{games.imglink}}" alt="" width="200px" height="200px">
     </figure>
-    <h1>{{games.name}}</h1>
-    <p>Lançado Para : {{games.plataform}}</p>
-  </div>
-  <div class="infos">
     <span>
-      Enredo :
+      <h1>{{games.name}}</h1>
+      <p>Lançado Para : <br> <b>{{games.plataform}}</b></p>
+      <p>Ano : <b>{{games.year}}</b></p>
+    </span>
+  </div><br>
+
+  <div class="infos">
+      <b>Enredo:</b>
       <p>{{games.resume}}</p><br>
 
       <span *ngIf="adinfops2||adinfops1||adinfops3||adinfoPsp||adinfoWii||adinfoGC">
@@ -21,7 +24,6 @@
         <p><b [innerHTML]='adinfoGC'></b></p><br>
       </span>
       
-    </span>
   </div><br>
 
 </section>

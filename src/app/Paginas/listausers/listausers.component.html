@@ -1,37 +1,20 @@
 <div>
     <section>
-
-      <h1 style="text-align: center;">
-        Configure Seus Jogos
-
-      </h1><br>
-
-      <div class="caixajogos">
-        <tr>
-          <td>
-            Nome do Usuario
-          </td>
-          <td>
-            email
-          </td>
-          <td>
-            Data De Nascimento
-          </td>
-
-        </tr>
-        <tr *ngFor="let i of users$ | async " >
-          <td>
-            {{i.username}}
-          </td>
-          <td>
-            {{i.email}}
-          </td>
-          <td>
-            {{i.datanascimento}}
-          </td>
-        </tr>
-
-      </div><br>
-
+      <div class="tabela">
+        <table *ngFor="let u of users$ | async">
+          <thead>
+            <th>Nome De Usuário</th>
+            <th>Email</th>
+            <th>Data De Nascimento</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>{{u.username}}</td>
+              <td>{{u.email}}</td>
+              <td>{{u.datanascimento}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </section>
   </div>

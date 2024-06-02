@@ -11,8 +11,6 @@ import { NonNullableFormBuilder } from '@angular/forms';
 })
 export class ListausersComponent {
 
-  //@Output() edit = new EventEmitter<GamesRe>();
-
   users$: Observable<Users[]>
 
 
@@ -20,10 +18,6 @@ export class ListausersComponent {
 
     this.users$=this.gamesService.DadosUsers();
   }
-
-  // Edit(games:GamesRe){
-  //   this.edit.emit(games)
-  // }
 
 
   Obter():void{
