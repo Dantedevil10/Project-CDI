@@ -1,13 +1,13 @@
 <div>
     <section>
       <div class="tabela">
-        <table *ngFor="let u of users$ | async">
+        <table>
           <thead>
             <th>Nome De Usuário</th>
             <th>Email</th>
             <th>Data De Nascimento</th>
           </thead>
-          <tbody>
+          <tbody *ngFor="let u of users$ | async">
             <tr>
               <td>{{u.username}}</td>
               <td>{{u.email}}</td>
