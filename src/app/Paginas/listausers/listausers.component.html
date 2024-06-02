@@ -1,20 +1,20 @@
 <div>
-    <section>
-      <div class="tabela">
-        <table>
-          <thead>
-            <th>Nome De Usuário</th>
-            <th>Email</th>
-            <th>Data De Nascimento</th>
-          </thead>
-          <tbody *ngFor="let u of users$ | async">
-            <tr>
-              <td>{{u.username}}</td>
-              <td>{{u.email}}</td>
-              <td>{{u.datanascimento}}</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-  </div>
+  <section>
+    <div class="tabela">
+      <table>
+        <thead>
+          <th>Nome De Usuário</th>
+          <th>Email</th>
+          <th>Data De Nascimento</th>
+        </thead>
+        <tbody *ngFor="let u of users$ | async">
+          <tr>
+            <td>{{u.username}}</td>
+            <td>{{u.email}}</td>
+            <td>{{u.datanascimento}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+</div>

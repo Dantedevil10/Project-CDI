@@ -1,7 +1,6 @@
 import { GamesRe } from './../../../models/games.model';
 import { GamesService } from './../../services/games.service';
 import { Component } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 
@@ -22,14 +21,11 @@ export class HomeComponent {
 
   }
 
+
   Obter3JogosDisp() {
     // this.GamesService.ObterJogos()
     // .subscribe(games => this.games=games.slice(1,6))   => Jeito Menos Profissional Não Apague
-
-
     this.games$ = this.gamesService.DadosGames().pipe(map(games=>games.slice(0,5)));
-
-
   }
 
 

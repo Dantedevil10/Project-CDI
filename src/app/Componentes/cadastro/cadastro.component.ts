@@ -10,6 +10,7 @@ import { FormBuilder, NonNullableFormBuilder } from '@angular/forms';
   styleUrl: './cadastro.component.sass'
 })
 export class CadastroComponent {
+
   @Input() users:Users[]=[]
   form = this.formB.group({
     username: [''],
@@ -19,8 +20,7 @@ export class CadastroComponent {
   })
 
   constructor(private gamesService:GamesService,private formB:NonNullableFormBuilder,
-    private route: ActivatedRoute, private router: Router
-  ){}
+    private route: ActivatedRoute, private router: Router){}
 
   onSubmit(){
     this.gamesService.SalvarDados(this.form.value)
@@ -28,7 +28,6 @@ export class CadastroComponent {
       alert('Salvo Com Sucesso')
       this.router.navigate(['/conteudo'])},
       (error)=>{alert('erro ao salvar dados')})
-
   }
 
 }
