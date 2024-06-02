@@ -2,15 +2,27 @@
 .header-container
     width: 100%
     height: 70px
-    background-color: black
+    background-color: #20252B
     display: flex
     justify-content: space-between
     align-items: center
 
 #butons
-    display: flex
-    gap: 10px
-    margin-right: 10px
+  display: flex
+  margin-right: 20px
+
+#butons a button
+  border: 1px solid white
+  border-radius: 10px
+  cursor: pointer
+  font-size: 1rem
+  color: white
+  padding: 5px
+  background-color: transparent
+  transition: all 0.5s
+  &:hover
+    color: #20252B
+    background-color: white
 
 .logo-img
     display: flex
@@ -18,8 +30,10 @@
     gap: 10px
     //margin-left: 10px
 
+.logo-img a
+  margin-left: 18px
+
 .links a
-    margin-right: 7px 
+    margin-right: 7px
     text-decoration: none
     color: white
-    
