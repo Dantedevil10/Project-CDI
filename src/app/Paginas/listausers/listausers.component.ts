@@ -13,16 +13,8 @@ export class ListausersComponent {
 
   users$: Observable<Users[]>
 
-
   constructor(private gamesService:GamesService,private formB:NonNullableFormBuilder){
-
     this.users$=this.gamesService.DadosUsers();
-  }
-
-
-  Obter():void{
-    // this.games=this.gamesService.DadosUsers();
-
   }
 
 }
