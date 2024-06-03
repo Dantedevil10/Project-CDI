@@ -9,7 +9,7 @@
     <td *ngFor="let i of games$ | async" class="content">
       <div class="gameimg-container" *ngIf="i.name.includes(inputpesq)">
 
-        <a routerLink="/conteudo/{{i.id}}"><img src="{{i.imglink}}" alt="dsad" /></a>
+      <a routerLink="/conteudo/{{i.id}}"><img src="{{i.imglink}}" alt="dsad" /></a>
 
       </div>
     </td>

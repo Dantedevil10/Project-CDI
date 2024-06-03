@@ -1,33 +1,33 @@
 <section><br>
     <header>
-        <div class="conteudo">
-          <h1>Sign up</h1>
-          <a routerLink=""><img src="assets/images/logo.jpg" alt="" width="60px" height="60px"></a>
-        </div>
+      <div class="conteudo">
+        <h1>Sign up</h1>
+        <a routerLink=""><img src="assets/images/logo.jpg" alt="" width="60px" height="60px"></a>
+      </div>
     </header><br>
     <main>
       <div class="pagecad-container">
-          <div class="pagecadbox">
+        <div class="pagecadbox">
 
-            <form [formGroup]="form">
-              <span class="inputs">
-                  <p style="font-size: 13px;padding-top:13px ;">Nome de Usuário* : </p>
-                    <input formControlName="username" type="text" name="" id="Mytext"  style="background-color: rgba(10, 17, 21, 0.934);border: 1px solid white;">
-                  <p></p> <!--Esse p Não pra Nada So é Pra Dar Um Espaçamento-->
-                  <p style="font-size: 13px;">Email* : </p>
-                    <input formControlName="email" type="email" name="" id="Myemail"  style="background-color: rgba(10, 17, 21, 0.934);border: 1px solid white;">
-                  <p style="font-size: 13px;">CPF (Opcional):</p>
-                    <input formControlName="cpf" type="number_format" name="" id="Mycpf" style="background-color: rgba(10, 17, 21, 0.934);border: 1px solid white;">
-                  <p style="font-size: 13px;">Dada de Nascimento* :</p>
-                    <input formControlName="datanascimento" type="date" name="" id="Mydata" style="background-color: rgba(10, 17, 21, 0.934);border: 1px solid white">
-              </span>
-            </form>
-
-            <span class="Mybutton">
-                <input (click)="onSubmit()" type="button" value="Create Account" id="buttonsign">
+          <form [formGroup]="form">
+            <span class="inputs">
+                <p style="font-size: 13px;padding-top:13px ;">Nome de Usuário* : </p>
+                  <input formControlName="username" type="text" name="" id="Mytext"  style="background-color: rgba(10, 17, 21, 0.934);border: 1px solid white;">
+                <p></p> <!--Esse p Não pra Nada So é Pra Dar Um Espaçamento-->
+                <p style="font-size: 13px;">Email* : </p>
+                  <input formControlName="email" type="email" name="" id="Myemail"  style="background-color: rgba(10, 17, 21, 0.934);border: 1px solid white;">
+                <p style="font-size: 13px;">CPF (Opcional):</p>
+                  <input formControlName="cpf" type="number_format" name="" id="Mycpf" style="background-color: rgba(10, 17, 21, 0.934);border: 1px solid white;">
+                <p style="font-size: 13px;">Dada de Nascimento* :</p>
+                  <input formControlName="datanascimento" type="date" name="" id="Mydata" style="background-color: rgba(10, 17, 21, 0.934);border: 1px solid white">
             </span>
+          </form>
+          <p id="outro">Já Possui Uma Conta : <a routerLink="/conteudo">Ir Para o Conteúdo</a> </p>
+          <span class="Mybutton">
+              <input (click)="onSubmit()" type="button" value="Create Account" id="buttonsign">
+          </span>
 
-          </div>
+        </div>
 
       </div>
     </main>
